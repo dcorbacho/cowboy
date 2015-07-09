@@ -27,5 +27,5 @@
 		crypto
 	]},
 	{mod, {cowboy_app, []}},
-	{env, []}
+	{env, [{timeout_req, 30000}]}
 ]}.
